@@ -44,5 +44,11 @@ public class UserData {
       return gender;
     }
 
+    public String toString() {
+
+      return lastName + firstName + middleName + ";" + dateOfBirth + ";" + phoneNumber + ";" + gender + "\n";
+
+    }
+
     
 }
