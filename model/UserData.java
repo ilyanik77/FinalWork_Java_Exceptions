@@ -46,7 +46,7 @@ public class UserData {
 
     public String toString() {
 
-      return lastName + firstName + middleName + ";" + dateOfBirth + ";" + phoneNumber + ";" + gender + "\n";
+      return lastName + " " + firstName + " " + middleName + ";" + dateOfBirth + ";" + phoneNumber + ";" + gender + "\n";
 
     }
 

@@ -11,7 +11,7 @@ import model.UserData;
 public class inputUserData {
     
     public UserData inputData() throws ParseException {
-        try (Scanner iScanner = new Scanner(System.in)) {
+        try (Scanner iScanner = new Scanner(System.in )) {
             while (true){
                 System.out.println("Введите строку через ПРОБЕЛ (Ф.И.О, дату рождения - dd.mm.yyyy, номер телефона - цифры, пол - f/m ) : ");
                 String input = iScanner.nextLine();
